@@ -177,7 +177,11 @@ h3 {
    width: 80px;
    height: 80px;
 }
-
+.main-flex{
+   display: flex;
+   gap: 21px;
+   padding-top:20px;
+}
 .arrow {
    max-width: 100%;
 }
@@ -201,12 +205,6 @@ h3 {
    line-height: 170%;
    max-width: 373px;
    padding-left: 5px;
-}
-
-.main_flex {
-   display: flex;
-   gap: 21px;
-   padding-top: 10px;
 }
 .grid {
    display: grid;
