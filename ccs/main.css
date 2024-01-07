@@ -179,7 +179,7 @@ p {
 
 /* wrapper */
 section {
-   padding-top: 56px;
+   padding-top: 0px;
    margin-bottom: -170px;
 }
 
@@ -189,7 +189,7 @@ section {
 }
 
 .carta {
-   margin-top: 110px;
+   margin-top:60px;
    max-width: 100%;
    height: 447px;
 }
@@ -259,8 +259,9 @@ section {
 /* wraper1  */
 .section_wrap {
    background: url(../img/wrap.jpg) no-repeat center top / cover;
-   height: 745px;
    animation: slide 15s linear infinite;
+   height: 802px;
+    padding: 20px;
 }
 @keyframes slide{
    0%{
@@ -1084,7 +1085,6 @@ text-decoration: none;
    }
 
    section {
-      padding-top: 59px;
       margin-bottom: -222px;
    }
 
@@ -1125,7 +1125,6 @@ text-decoration: none;
    }
 
    footer {
-      margin-top: 124px;
       padding-top: 128px;
       padding-bottom: 145px;
    }
@@ -1226,8 +1225,7 @@ text-decoration: none;
    }
 
    section {
-      padding-top: 61px;
-      margin-bottom: 434px;
+      margin-bottom:0px;
    }
 
    .header_hero {
@@ -1243,14 +1241,8 @@ text-decoration: none;
       font-size: 16px;
    }
 
-   .img_mobail {
-      background: url(../img/mobalililijpg.jpg) no-repeat center top / cover;
-      height: 456px;
-      margin-top: -400px;
-   }
-
    .section_wrap {
-      height: 580px;
+      height: 1131px;
    }
 
    .carta {
@@ -1266,7 +1258,7 @@ text-decoration: none;
    }
 
    footer {
-      margin-top: -437px;
+      margin-top:-40px;
       padding-top: 128px;
       padding-bottom: 145px;
    }
@@ -1314,6 +1306,9 @@ text-decoration: none;
    .footer_box {
       gap: 159px;
    }
+   .section_wraper1 {
+      padding-bottom: 570px;
+   }
 }
 
 @media (max-width: 470px) {
@@ -1350,7 +1345,7 @@ text-decoration: none;
    }
 
    .carta {
-      margin-top: 107px;
+      margin-top:60px;
       max-width: 100%;
       height: 317px;
    }
@@ -1387,7 +1382,7 @@ text-decoration: none;
    }
 
    .section_wraper1 {
-      height: 940px;
+      height: 1440px;
    }
 
    .about {
@@ -1399,7 +1394,7 @@ text-decoration: none;
    }
 
    footer {
-      margin-top: -439px;
+      margin-top:0px;
    }
 
    .footer-nav a {
