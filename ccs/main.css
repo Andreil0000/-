@@ -1394,7 +1394,7 @@ text-decoration: none;
    }
 
    footer {
-      margin-top:0px;
+      margin-top:-10px;
    }
 
    .footer-nav a {
@@ -1436,11 +1436,6 @@ text-decoration: none;
    .header_logo {
       margin-top: 0px;
    }
-
-   .footer_box {
-      gap: 68px;
-   }
-
    .header-burger {
       margin-top: -3px;
    }

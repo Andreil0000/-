@@ -709,7 +709,7 @@ p {
 }
 @media(max-width:360px) {
    .footer-nav a {
-      font-size: 11px;
+      font-size: 12px;
       width: 100px;
    }
    p {
