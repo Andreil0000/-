@@ -170,10 +170,10 @@
    .text{
       color: #000;
       font-family: Montserrat;
-      font-size: 12px;
+      font-size: 14px;
       font-style: normal;
       font-weight: 400;
-      line-height: 180%; /* 21.6px */
+      padding-top: 10px;
    }
   
    .content_title2 {
@@ -397,4 +397,10 @@
      .footer_box {
       gap: 58px;
   }
+  .text {
+   font-size: 12px;
+}
+.footer-nav a {
+   font-size: 11px;
+}
      }

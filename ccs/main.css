@@ -260,8 +260,19 @@ section {
 .section_wrap {
    background: url(../img/wrap.jpg) no-repeat center top / cover;
    height: 745px;
+   animation: slide 15s linear infinite;
 }
-
+@keyframes slide{
+   0%{
+      background-position: 0% 0%;
+   }
+   50%{
+      background-position: 100% 0%;
+   }
+   100%{
+      background-position: 0% 0%;
+   }
+}
 .section_wraper1 {
    background: url(../img/scale.jpg) no-repeat center top / cover;
    padding-top: 80px;
@@ -412,7 +423,7 @@ h3 {
   }
 .video_medio{
    width: 100%;
-   border-radius: 15px;
+   border-radius: 30px;
   }
 
 .action {
@@ -1296,12 +1307,12 @@ text-decoration: none;
 
    .footer_grid {
       display: grid;
-      gap: 30px;
+      gap: 0px;
       grid-template-columns: repeat(auto-fit, minmax(108px, 1fr));
    }
 
    .footer_box {
-      gap: 206px;
+      gap: 159px;
    }
 }
 
@@ -1335,7 +1346,7 @@ text-decoration: none;
 
    .footer_box {
       display: flex;
-      gap: 85px;
+      gap:50px;
    }
 
    .carta {
@@ -1356,15 +1367,6 @@ text-decoration: none;
    .main1_text {
       font-size: 14px;
    }
-
-   /* .grid {
-      padding-top: 8px;
-      margin-left: 113px;
-      gap: 16px;
-      align-items: center;
-      justify-content: center;
-      grid-template-columns: repeat(auto-fit, minmax(161px, 1fr));
-   } */
    .main_title {
       font-size: 14.022px;
       line-height: 140%;
@@ -1409,13 +1411,8 @@ text-decoration: none;
    }
 
    .footer-nav {
-      width: 90%;
+      width: 150%;
    }
-
-   .footer_grid {
-      gap: 0px;
-   }
-
    .footer_tel {
       font-size: 14px;
    }
