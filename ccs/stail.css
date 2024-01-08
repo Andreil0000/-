@@ -44,7 +44,7 @@ p {
 .header_bg {
    background: url(../image/image.jpg) no-repeat center top / cover;
    height: 933px;
-   animation: slide 15s linear infinite;
+   animation: slide 60s linear infinite;
 }
 @keyframes slide{
    0%{

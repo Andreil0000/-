@@ -259,7 +259,7 @@ section {
 /* wraper1  */
 .section_wrap {
    background: url(../img/wrap.jpg) no-repeat center top / cover;
-   animation: slide 15s linear infinite;
+   animation: slide 60s linear infinite;
    height: 802px;
     padding: 20px;
 }
